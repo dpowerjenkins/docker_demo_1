@@ -18,7 +18,7 @@ pipeline {
             post {
                 // Save our results
                 always {
-                    junit 'docker_demo_1/artifacts/tests_output.xml'
+                    junit 'artifacts/tests_output.xml'
                 }
             }
         }
