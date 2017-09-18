@@ -1,5 +1,5 @@
 #!/bin/bash
-source /etc/profile.d/rvm.sh
+# source /etc/profile.d/rvm.sh
 echo "== Acquire Dependencies =="
 bundle install --jobs 3
 echo "== Run tests =="
